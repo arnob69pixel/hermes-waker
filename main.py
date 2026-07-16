@@ -38,8 +38,7 @@ def run_render_port_buffer():
         httpd.serve_forever()
 
 def main():
-    Thread(target=run_render_port_buffer, daemon=True).start()
-    app = Application.builder().token(TOKEN).build()
+   app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("wake", wake_agent))
     print("Remote trigger application is online...")
     app.run_polling()
