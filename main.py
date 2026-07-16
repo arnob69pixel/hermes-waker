@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Pre-built configuration
 TOKEN = "8752464886:AAGqPKWL8v68TfsN8bHZfn201AFP094ee04"
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 CODESPACE_NAME = "legendary-engine-4jxp4wjwrqvc7rg6"
 
 async def wake_agent(update: Update, context: ContextTypes.DEFAULT_TYPE):
