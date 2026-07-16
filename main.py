@@ -37,8 +37,10 @@ def run_render_port_buffer():
     with socketserver.TCPServer(("0.0.0.0", port), handler) as httpd:
         httpd.serve_forever()
 
+from telegram.ext import Application, CommandHandler
+
 def main():
-   app = Application.builder().token(TOKEN).build()
+    app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("wake", wake_agent))
     print("Remote trigger application is online...")
     app.run_polling()
