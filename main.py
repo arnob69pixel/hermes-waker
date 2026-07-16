@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Pre-built configuration
-TOKEN = "8752464886:AAGK0CE-1F4hdlNP2nMbzkGm4cOZ8IJ5L0E"
+TOKEN = "8752464886:AAETK6veju3o3adaapyqyvxeD_92RHpLcJ0"
 GITHUB_TOKEN = "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"
 CODESPACE_NAME = "legendary-engine-4jxp4wjwrqvc7rg6"
 
